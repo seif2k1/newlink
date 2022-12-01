@@ -51,7 +51,7 @@
 
 .seif{
     height:calc(100vh + 200px);
-    background: url(/seif/images/about-content-bg.jpg) no-repeat fixed center/cover ;
+    background: url(./seif/images/about-content-bg.jpg) no-repeat fixed center/cover ;
     padding: 140px 0;
 }
 .seif-1{
@@ -744,7 +744,7 @@ svg#bi-arrow-left:hover,#bi-arrow-right:hover{
 }
 
 .footer{
-    background:url(/seif/images/best-01.jpg) no-repeat  top right/cover;
+    background:url(./seif/images/best-01.jpg) no-repeat  top right/cover;
     color:var(--bs-white) ;
     opacity:0.8;
 }

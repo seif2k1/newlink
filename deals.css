@@ -51,7 +51,7 @@
 
 .seif{
     height:76.5vh;
-    background: url(/seif/images/banner-01.jpg) no-repeat fixed center/cover ;
+    background: url(./seif/images/banner-01.jpg) no-repeat fixed center/cover ;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -229,7 +229,7 @@
     align-items:center;
     padding:50px 0;}
 .footer{
-    background:url(/seif/images/cta-bg.jpg) no-repeat  top right/cover;
+    background:url(./seif/images/cta-bg.jpg) no-repeat  top right/cover;
     color:var(--bs-white) ;
 }
 .button-footer a{
