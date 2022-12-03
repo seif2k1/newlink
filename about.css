@@ -94,6 +94,9 @@
     position:absolute;
     top:-2rem;
     left:93%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 .owl-carousel .owl-nav #left-arrow, .owl-carousel .owl-nav #right-arrow{
     width:20px;
@@ -150,18 +153,150 @@
 }
 
 @media only screen and (min-width:300px){
+    .seif-1{
+        padding-top:110px;
+        padding-bottom: 55px;
+        margin-bottom: 40px;
+        background:transparent;
+        backdrop-filter:blur(5px);
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        text-align: center;
+        border-radius: 30px;
+    }
+    
+    .content-weekly{
+        position: relative;
+    }
+    .weekly-card{
+        height: 500px;
+    }
          .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
-            height:400px;
-            width: 300px;
+            height:120px;
+            width: 100px;
+        }
+        .content-weekly .offer-items .weekly-card .offer .offer-card{
+            border:5px solid red;
+            position: absolute;
+            z-index:999;
+            left:0;
+            top:0;
+            transform: translate(1%,10%);
+            height:380px;
+            width:250px;
+            padding:40px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            border-radius:25px;
+        }
+        .seif .content-weekly #owl-carousel .owl-nav{
+            position:absolute;
+            top:90%;
+            left:40%;
+        }
+        .owl-carousel .owl-nav{
+            position:absolute;
+            top:-2rem;
+            left:75%;
+        }
+}
+@media only screen and (min-width:325px){
+    
+    .content-weekly{
+        position: relative;
+    }
+    .weekly-card{
+        height: 500px;
+    }
+         .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
+            height:150px;
+            width: 130px;
         }
         .content-weekly .offer-items .weekly-card .offer .offer-card{
             position: absolute;
             z-index:999;
             left:0;
             top:0;
-            transform: translate(40%,10%);
-            height:330px;
-            width:300px;
+            transform: translate(5%,10%);
+            height:380px;
+            width:250px;
+            padding:40px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            border-radius:25px;
+        }
+        .seif .content-weekly #owl-carousel .owl-nav{
+            position:absolute;
+            top:90%;
+            left:40%;
+        }
+        .owl-carousel .owl-nav{
+            position:absolute;
+            top:-2rem;
+            left:75%;
+        }
+}
+@media only screen and (min-width:345px){
+    
+    .content-weekly{
+        position: relative;
+    }
+    .weekly-card{
+        height: 500px;
+    }
+         .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
+            height:170px;
+            width: 140px;
+        }
+        .content-weekly .offer-items .weekly-card .offer .offer-card{
+            position: absolute;
+            z-index:999;
+            left:0;
+            top:0;
+            transform: translate(15%,10%);
+            height:380px;
+            width:250px;
+            padding:40px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            border-radius:25px;
+        }
+        .seif .content-weekly #owl-carousel .owl-nav{
+            position:absolute;
+            top:90%;
+            left:40%;
+        }
+        .owl-carousel .owl-nav{
+            position:absolute;
+            top:-2rem;
+            left:75%;
+        }
+}
+@media only screen and (min-width:400px){
+    
+    .content-weekly{
+        position: relative;
+    }
+    .weekly-card{
+        height: 500px;
+    }
+         .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
+            height:250px;
+            width: 200px;
+        }
+        .content-weekly .offer-items .weekly-card .offer .offer-card{
+            position: absolute;
+            z-index:999;
+            left:0;
+            top:0;
+            transform: translate(30%,10%);
+            height:380px;
+            width:265px;
             padding:40px 15px;
             display: flex;
             flex-direction: column;
@@ -181,8 +316,11 @@
         }
 }
 @media only screen and (min-width:600px){
+    .weekly-card{
+        height: 550px;
+    }
     .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
-       height:600px;
+       height:530px;
        width: 400px;
    }
    .content-weekly .offer-items .weekly-card .offer .offer-card{
@@ -190,9 +328,9 @@
        z-index:999;
        left:0;
        top:0;
-       transform: translate(80%,50%);
-       height:330px;
-       width:300px;
+       transform: translate(100%,30%);
+       height:350px;
+       width:270px;
        padding:40px 15px;
        display: flex;
        flex-direction: column;
@@ -202,7 +340,8 @@
    }  
    .seif .content-weekly #owl-carousel .owl-nav{
        position:absolute;
-       top:90%;
+       top:100%;
+       border: 2px solid red;
        left:40%;
    }
    .owl-carousel .owl-nav{
@@ -212,6 +351,9 @@
    }
 }
 @media only screen and (min-width:700px){
+    .weekly-card{
+        height: 760px;
+    }
     .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
        height:700px;
        width: 450px;
@@ -244,6 +386,9 @@
    }
 }
 @media only screen and (min-width:750px){
+    .weekly-card{
+        height: 760px;
+    }
     .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
        height:750px;
        width: 500px;
@@ -276,6 +421,16 @@
    }
 }
 @media only screen and (min-width:800px){
+    .seif-1{
+        padding-top:110px;
+        padding-bottom: 55px;
+        margin-bottom: 110px;
+        background:transparent;
+        backdrop-filter:blur(5px);
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        text-align: center;
+        border-radius: 30px;
+    }
     .seif .content-weekly .offer-items .weekly-card .offer .offer-image img{
         height: 320px;
         width:200px;
