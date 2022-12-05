@@ -55,8 +55,7 @@
     padding: 170px 0;
 }
 .seif-1{
-    margin-bottom: 20px;
-    border: 2px solid red;
+    margin-bottom: 15px;
     text-align: center;
 }
 .seif-1 .title h1{
@@ -73,15 +72,15 @@
 
 .seif-1 .button a{
     text-decoration: none;
-    border: 1px solid var(--bs-cyan);
     border-radius: 35px;
     padding:14px 48px;
     transition:1s;
-    background-color: var(--bs-cyan);
-    color:var(--bs-white);
+    color:var(--bs-primary);
+    background-color: var(--bs-white);
 }
 .seif-1 .button a:hover{
-    opacity: 0.8;
+    background-color: var(--bs-primary);
+    color:var(--bs-white);
 }
 .seif-1 .button{
     margin:70px 0;
@@ -92,4 +91,102 @@
 .seif .reserve-card{
     text-align: center;
     padding-top:50px;
+}
+#form{
+    padding:25px;
+}
+#form label {
+    color:var(--bs-secondary);
+}
+#validationDefault02, #validationDefault01, #validationDefault03,#validationDefault05{
+    border-radius: 35px;
+    padding:15px 0;
+    text-indent: 30px;
+}
+#validationDefault04{
+    border-radius: 35px;
+    text-indent: 15px;
+    padding:15px 25px 15px 0;
+}
+#confirm button{
+    border-radius: 35px;
+    padding:15px 0;
+}
+.card .card-body .reserve-card-logo svg{
+    background-color:rgb(236, 236, 236);
+    font-size: 60px;
+    border-radius:50%;
+    padding:15px;
+    margin:20px 0;
+}
+#date input[type="date"]{
+    cursor: pointer;
+}
+#date{
+    position: relative;
+}
+#date svg{
+    position: absolute;
+}
+@media only screen and (min-width:300px){
+    .seif{
+        height:120vh;
+        background: url(./seif/images/heading-bg-02.jpg) no-repeat fixed center/cover ;
+        padding:0;
+    }
+    .seif-1{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width:400px){
+    .seif{
+        height:100vh;
+        background: url(./seif/images/heading-bg-02.jpg) no-repeat fixed center/cover ;
+        padding:50px 0;
+    }
+    .seif-1{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width:600px){
+    .seif{
+        height:100vh;
+        background: url(./seif/images/heading-bg-02.jpg) no-repeat fixed center/cover ;
+        padding:100px 0;
+    }
+    .seif-1{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:800px){
+    .seif{
+        height:100vh;
+        background: url(./seif/images/heading-bg-02.jpg) no-repeat fixed center/cover ;
+        padding:150px 0;
+    }
+    .seif-1{
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:1000px){
+.seif{
+    height:90vh;
+    background: url(./seif/images/heading-bg-02.jpg) no-repeat fixed center/cover ;
+    padding: 170px 0;
+}
+.seif-1{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 }

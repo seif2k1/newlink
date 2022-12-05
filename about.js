@@ -35,3 +35,10 @@ $('.owl-carousel').owlCarousel({
   1200:{items:4},
   }
 });
+
+var typed = new Typed('.input' ,{
+Strings:["seif eddine","algeria","akkouche"],
+typespeed : 4,
+backspeed : 2,
+loop:true,
+})

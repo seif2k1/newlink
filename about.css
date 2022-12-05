@@ -101,8 +101,8 @@
 .owl-carousel .owl-nav #left-arrow, .owl-carousel .owl-nav #right-arrow{
     width:20px;
     font-weight: 50px;
-    scale: 2.5;
-    margin:0 10px;
+    scale: 4;
+    margin-right:30px;
     font-weight: 900;
 }
 .owl-carousel .owl-nav svg#right-arrow, .owl-carousel .owl-nav svg#left-arrow{
@@ -175,7 +175,6 @@
             width: 100px;
         }
         .content-weekly .offer-items .weekly-card .offer .offer-card{
-            border:5px solid red;
             position: absolute;
             z-index:999;
             left:0;
@@ -192,8 +191,9 @@
         }
         .seif .content-weekly #owl-carousel .owl-nav{
             position:absolute;
+            scale:1.5;
             top:90%;
-            left:40%;
+            left:30%;
         }
         .owl-carousel .owl-nav{
             position:absolute;
@@ -341,7 +341,6 @@
    .seif .content-weekly #owl-carousel .owl-nav{
        position:absolute;
        top:100%;
-       border: 2px solid red;
        left:40%;
    }
    .owl-carousel .owl-nav{
